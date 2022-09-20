@@ -1,0 +1,50 @@
+@font-face {
+  font-family: "GmarketSansMedium";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "MaplestoryOTFBold";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/MaplestoryOTFBold.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+:root {
+  --mainColor: #fa780a;
+}
+
+span {
+  font-size: 36px;
+  font-family: "MaplestoryOTFBold";
+  margin-left: 12px;
+}
+
+.myName {
+  text-decoration: underline solid var(--mainColor);
+}
+
+button {
+  background-color: white;
+  border: 1px solid black;
+  padding: 12px;
+  margin-top: 12px;
+  margin-left: 12px;
+  font-size: 24px;
+  font-family: "GmarketSansMedium";
+  box-shadow: -4px -4px 0 -2px var(--mainColor), 4px 4px 0 -2px var(--mainColor);
+  transition: all 0.5s;
+}
+
+button:hover {
+  box-shadow: -4px -4px 0 0px var(--mainColor), 4px 4px 0 0px var(--mainColor);
+}
+
+button:active {
+  box-shadow: -4px -4px 0 0px #c76108, 4px 4px 0 0px #c76108;
+  transition: all 0.1s;
+}

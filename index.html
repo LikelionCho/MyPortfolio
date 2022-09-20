@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div>
+      <span class="myName">What is your name?</span>
+      <button onclick="revealMyInfo('My name is h662.', '.myName', '#123456')">
+        Confirm
+      </button>
+      <button
+        onclick="revealMyInfo('내 이름은 h662 입니다.', '.myName', '#123456')"
+      >
+        확인
+      </button>
+    </div>
+    <div>
+      <span class="myJob">What is your job?</span>
+      <button
+        onclick="revealMyInfo('I am super ultra programmer.', '.myJob', '#654321')"
+      >
+        Confirm
+      </button>
+    </div>
+    <div>
+      <span class="myFavorite">What is your favorite?</span>
+      <button onclick="revealMyInfo('Zero Coke', '.myFavorite', '#000000')">
+        Confirm
+      </button>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
